@@ -1,6 +1,13 @@
 # Chess Project (Unity)
 
-A Unity-based chess project that integrates open-source libraries and selected Unity Asset Store packages.
+This project was developed as part of the **Computer Graphics [BCG601]** course  
+at the **Syrian Virtual University (SVU)** during the **Fall 2024 (F24)** semester.  
+
+The purpose of the project is to demonstrate practical application of computer graphics concepts within Unity, including:
+- 3D modeling and rendering
+- Integration of open-source libraries
+- Use of Unity Asset Store resources
+- Implementation of interactive gameplay mechanics
 
 ---
 

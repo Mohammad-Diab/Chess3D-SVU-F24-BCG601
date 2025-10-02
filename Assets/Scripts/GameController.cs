@@ -119,23 +119,14 @@ public class GameController : MonoBehaviour
             switch (gameInfo.EndgameType)
             {
                 case EndgameType.Checkmate:
-                    if (isWhiteWin)
-                        gameResult.text = "Checkmate! Black Wins!";
-                    else
-                        gameResult.text = "Checkmate! White Wins!";
+                    gameResult.text = $"Checkmate! {(isWhiteWin ? "White" : "Black")} Wins!";
                     break;
-
                 case EndgameType.Stalemate:
                     gameResult.text = "Draw! Stalemate!";
                     break;
-
                 case EndgameType.Resigned:
-                    if (isWhiteWin)
-                        gameResult.text = "Black Resigned! White Wins!";
-                    else
-                        gameResult.text = "White Resigned! Black Wins!";
+                    gameResult.text = $"${(isWhiteWin ? "Black" : "White")} Resigned! {(isWhiteWin ? "White" : "Black")} Wins!";
                     break;
-
                 case EndgameType.InsufficientMaterial:
                     gameResult.text = "Draw! Insufficient Material!";
                     break;
@@ -147,7 +138,6 @@ public class GameController : MonoBehaviour
                     break;
             }
         }
-        
     }
 
     public void OnExitGameClicked()

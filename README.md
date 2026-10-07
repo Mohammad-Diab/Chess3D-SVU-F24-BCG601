@@ -41,12 +41,20 @@ This project relies on the following Unity Asset Store packages, which are **not
 > These assets are distributed under the [Unity Asset Store EULA](https://unity.com/legal/as-terms).  
 > To run the project, please download them from the Unity Asset Store and place them in the `Assets/` folder.
 
+The author keeps them in a private repository. With access to it, `get-store-assets.ps1` copies them into `Assets/`:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\get-store-assets.ps1
+```
+
+Both folders are listed in `.gitignore`, so they are never committed here.
+
 ---
 
 ## ⚙️ Getting Started
 
-1. Open the project in Unity (recommended version: Unity 6.2 or newer).  
-2. Download the required Asset Store packages and add them to the `Assets/` directory.  
+1. Open the project in Unity (made with Unity 6000.2.7; Unity 6.2 or newer).  
+2. Download the required Asset Store packages and add them to the `Assets/` directory (or run `get-store-assets.ps1` if you have access to the private repository).  
 3. Open the `Chess3D` scenes in Unity Editor or build the project to run it.
 
 ---

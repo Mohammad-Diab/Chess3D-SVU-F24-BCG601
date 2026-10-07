@@ -97,3 +97,8 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# Unity Asset Store packs: kept in the private repo Chess3D-Store-Assets (see README).
+# Their license forbids publishing them, so never commit them here.
+/[Aa]ssets/PBR Chess Pack Vol-1 (Simple)/
+/[Aa]ssets/Stylized Wood Textures/
